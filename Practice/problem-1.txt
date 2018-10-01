@@ -1,1 +1,79 @@
 data strctures in java
+
+Quick Find
+
+step-1
+Initially Array is
+0 1 2 3 4 5 6 7 8 9 
+
+Step-2
+Union(9,0)
+0 1 2 3 4 5 6 7 8 0
+
+Step-3
+Union(3,4)
+0 1 2 4 4 5 6 7 8 0
+
+Step-4
+union(5,8)
+0 1 2 4 4 8 6 7 8 0
+
+Step-5
+union(7,2)
+0 1 2 4 4 8 6 2 8 0
+
+step 6:
+union(2,1)
+0 1 1 4 4 8 6 1 8 0
+
+step 7:
+union(5,7)
+0 1 1 4 4 1 6 1 1 0
+
+step 8:
+union(0,3)
+4 1 1 4 4 1 6 1 1 4
+
+step 9:
+union(4,2)
+1 1 1 1 1 1 6 1 1 1 
+
+
+
+Quick Union:
+
+step-1
+Initially Array is
+0 1 2 3 4 5 6 7 8 9 
+
+Step-2
+Union(9,0)
+0 1 2 3 4 5 6 7 8 0
+
+Step-3
+Union(3,4)
+0 1 2 4 4 8 6 7 8 0
+
+Step-4
+union(5,8)
+0 1 2 4 4 8 6 2 8 0
+
+Step-5
+union(7,2)
+0 1 1 4 4 8 6 2 8 0
+
+step 6:
+union(2,1)
+0 1 1 4 4 8 6 1 8 0
+
+step 7:
+union(5,7)
+0 1 1 4 4 8 6 2 1 0
+
+step 8:
+union(0,3)
+4 1 1 4 4 8 6 2 1 0
+
+step 9:
+union(4,2)
+4 1 1 4 1 8 6 2 1 0 
