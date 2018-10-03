@@ -114,4 +114,44 @@ union(0,3)
 9 7 7 9 3 7 6 7 5 9
 
 step 9:
+union(4,2)
 9 7 7 9 3 7 6 7 5 7
+
+
+Weighted quick union path compression
+
+step-1
+Initially Array is
+0 1 2 3 4 5 6 7 8 9 
+
+Step-2
+Union(9,0)
+9 1 2 3 4 5 6 7 8 9
+
+Step-3
+Union(3,4)
+9 1 2 3 3 5 6 7 8 9
+
+Step-4
+union(5,8)
+9 1 2 3 3 5 6 7 5 9
+
+Step-5
+union(7,2)
+9 1 7 3 3 5 6 7 5 9
+
+step 6:
+union(2,1)
+9 7 7 3 3 5 6 7 5 9
+
+step 7:
+union(5,7)
+9 7 7 3 3 7 6 7 5 9
+
+step 8:
+union(0,3)
+9 7 7 3 3 7 6 7 7 9
+
+step 9:
+union(4,2)
+9 7 7 9 9 7 6 7 7 9
