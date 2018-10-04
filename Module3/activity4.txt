@@ -1,0 +1,46 @@
+Activity 4
+
+Give the order of growth (as a function of N ) of the running times of each of the following code fragments:
+
+Code-1:int count = 0;
+            for(int i = 0; i < N; i++){
+                count++;
+            }
+
+Ans: N
+
+CODE-2:int sum = 0;
+            if(sum == 0){
+               sum++;
+}
+
+Ans:1
+
+Code 3:for(int i = N; i > 0; i < N/2){
+            int sum = 0;
+}
+Ans:log N
+
+Code 4:for(int i = 0; i < N; i++){
+                for(int j = 0; j < N; j++){
+                    System.out.println(“Hello”);
+                }
+            }
+
+Ans:N^2
+
+Code 5: for(int i = 0; i < N; i++){
+                for(int j = 0; j < N; j = j * 2){
+                    System.out.println(“Hello”);
+                }
+            }
+Ans:N^2
+
+Code 6:public int fibonacci(int number) {
+	 if (number <= 1) {
+                       return number;
+                 } else {
+                           return fibonacci(number - 1) + fibonacci(number - 2);
+                 }
+}
+Ans:1
