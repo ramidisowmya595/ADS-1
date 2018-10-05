@@ -22,14 +22,14 @@ public class BinarySearch
 		while(first<=last)
 		{
 			 mid=(first+last)/2;
-			if (key==a[mid] &&(!(key==a[mid - 1])))
+			if(key==a[mid] &&(mid>0 && (!(key==a[mid-1])) || mid==0))
 			{	
 					System.out.println("element is "+mid);
 					break;
 			}
-			else if (key>a[mid])
+			else if(key>a[mid])
 			{
-				first= mid + 1;
+				first=mid + 1;
 			}
 		    else
 		    {
