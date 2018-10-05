@@ -1,0 +1,71 @@
+module4 
+
+Problem-1
+Give the output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - -
+
+1)Push "it" in to stack
+
+Stack:It
+
+2)push "was" in to stack
+
+stack:was
+      it
+
+3)As there is "-" symbol pop element.In stack we need to pop top most element
+
+now Stack:it
+
+4) push "the" in to stack
+
+stack:the
+      it
+
+5)push "best" in to stack
+
+Stack:best
+      the
+      it
+6)As there is "-" symbol pop element.In stack we need to pop top most element
+
+Stack:the
+      it
+
+7) push "of" in to stack
+Stack:of
+      the
+      it
+
+8) push "times" in to stack
+Stack:times
+       of
+       the
+       it
+9)As there is "- - -" symbol pop elements.In stack we need to pop top three most elements
+
+Stack:it
+
+10) push "it" in to stack
+
+Stack:it
+      it
+11) push "was" in to stack
+
+stack:was
+      it
+      it
+12)As there is "-" symbol pop element.In stack we need to pop top most element
+
+Stack:it
+      it
+
+13) push "the" in to stack
+Stack:the
+      it
+      it
+
+14)As there is "- -" symbol pop element.In stack we need to pop top two most elements
+Stack:it
+
+
+
