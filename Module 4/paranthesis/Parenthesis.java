@@ -15,7 +15,7 @@ class Stack
     }
 	public char pop()
 	{
-        char popped= t[--top];
+        char popped= st[--top];
         
         return popped;
     }
