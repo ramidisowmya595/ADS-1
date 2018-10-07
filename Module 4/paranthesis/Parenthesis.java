@@ -15,9 +15,8 @@ class Stack
     }
 	public char pop()
 	{
-        char popped= st[--top];
-        
-        return popped;
+        char popped = st[--top];
+               return popped;
     }
 	public boolean isEmpty()
 	{
@@ -27,7 +26,8 @@ class Stack
 	{
 		return top==st.length;
 	}
-	public  char gettop() {
+	public  char gettop()
+	{
         return st[top - 1];
     }
 	
@@ -39,7 +39,7 @@ public class Parenthesis
 		Stack stk=new Stack(str.length()/2);
 		for(char each : str.toCharArray()) 
 		{
-			if (each == '{' || each == '[' || each == '(')
+			if(each == '{' || each == '[' || each == '(')
 			{
                 stk.push(each);
             }
@@ -47,7 +47,7 @@ public class Parenthesis
 			{
 				if(!stk.isEmpty())
 				{
-					char top = stk.gettop();
+					char top=stk.gettop();
 					if((top=='(' && each == ')') || (top=='{'
 		                     && each=='}') || (top=='[' && each==']')) 
 					{
