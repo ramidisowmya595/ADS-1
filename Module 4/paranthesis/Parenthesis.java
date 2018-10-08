@@ -76,7 +76,7 @@ public class Parenthesis
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		Parenthesis p=new Parenthesis();
-		System.out.println("enter number of inputs");
+		//System.out.println("enter number of inputs");
 		int noOfInputs = sc.nextInt();
 		sc.nextLine();
 		for(int i=0;i<noOfInputs;i++)
