@@ -1,0 +1,145 @@
+1)Usually when a user wrote nextLine() method in a code then the output will print line by line.
+If user wants to print it in a single line seperated by comma(,) then System.out.println("Statement,"+a+"Statement 2,"+b+"Statement 3"+c) printing statement can be used.
+
+2)It will print  1 1 0 0 1 0
+
+2)Playing Cricket - is - a hobby - - of - - mentor - deepak
+Since it is queue we will follow "first in first out" pattern
+	1)Enqueue "Playing"
+	Queue:Playing
+	2)Enqueue "Cricket"
+	Queue:Playing , Cricket
+	3)Now DEQUEUE "-" ONE element.
+	Queue:Cricket
+	4)Enqueue: "is"
+	Queue:Cricket,is
+	5)Dequeue "-" remove One element
+	Queue:is
+	6)Enqueue: "a"
+	Queue:is,a
+	7)Enqueue: "hobby"
+	Queue:is,a,hobby
+	8)Dequeue "- -" remove two elements
+	Queue:Hobby
+	9)Enqueue: "of"
+	Queue:Hobby,of
+	10)Dequeue "- - "remove two elements
+	Queue:  empty
+	11)Enqueue: "mentor"
+	Queue:mentor
+	12)Dequeue:"-"
+	Queue: empty
+	13)Enqueue "deepak"
+	Queue:deepak
+
+Final Queue:deepak
+
+3)c,e
+
+5){[]()}
+It is balanced because for every open brace is followed by closed brace.
+	1)Push:{
+	Stack:{
+	2)Push:[
+	Stack:{ [
+	3)Push:]
+	both [] brackets are matched so pop
+	Stack:{
+	4)push (
+	Stack:{ (
+	5)Push: )
+	both () brackets are matched so pop
+	Stack :{
+	6)Push :}
+	both { } brackets are matched so pop
+	Stack:empty
+Balanced.
+
+4)Quick Find
+
+step-1
+Initially Array is
+0 1 2 3 4 5 6 7 8 9 
+
+Step-2
+Union(3,4)
+0 1 2 4 4 5 6 7 8 9
+
+Step-3
+Union(4,9)
+0 1 2 9 9 5 6 7 8 9
+
+Step-4
+union(8,0)
+0 1 2 9 9 5 6 7 0 9
+
+Step-5
+union(2,3)
+0 1 9 9 9 5 6 7 0 9
+
+step 6:
+union(5,6)
+0 1 9 9 9 6 6 7 0 9
+
+step 7:
+union(5,9)
+0 1 9 9 9 9 9 7 0 9
+
+step 8:
+union(7,3)
+0 1 9 9 9 9 9 9 0 9
+
+step 9:
+union(4,8)
+0 1 0 0 0 0 0 0 0 0
+
+step 10:
+union(6,1)
+1 1 1 1 1 1 1 1 1 1
+
+7)O(N logN)
+
+8)O(1)
+9)Order of growth:O(n^2)
+
+10)Quick Find
+
+step-1
+Initially Array is
+0 1 2 3 4 5 6 7 8 9 
+
+Step-2
+Union(3,4)
+0 1 2 4 4 5 6 7 8 9
+
+Step-3
+Union(4,9)
+0 1 2 9 9 5 6 7 8 9
+
+Step-4
+union(8,0)
+0 1 2 9 9 5 6 7 0 9
+
+Step-5
+union(2,3)
+0 1 9 9 9 5 6 7 0 9
+
+step 6:
+union(5,6)
+0 1 9 9 9 6 6 7 0 9
+
+step 7:
+union(5,9)
+0 1 9 9 9 9 9 7 0 9
+
+step 8:
+union(7,3)
+0 1 9 9 9 9 9 9 0 9
+
+step 9:
+union(4,8)
+0 1 0 0 0 0 0 0 0 0
+
+step 10:
+union(6,1)
+1 1 1 1 1 1 1 1 1 1
