@@ -1,0 +1,10 @@
+(a) 0 1 2 3 4 5 6 7 8 9
+(b) 4 6 8 7 5 3 2 9 0 1 
+(c) 2 5 6 7 4 8 9 3 1 0
+(d) 4 3 2 1 0 5 6 7 8 9
+
+Among all b,c,d pattern is not possible because as it is a queue operation it follows First in First Out.
+
+So if we enqueue 0-9 elements then the sequence will be 0 1 2 3 4 5 6 7 8 9 which is possible
+
+Ans:b,c,d
