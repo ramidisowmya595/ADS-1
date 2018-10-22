@@ -1,0 +1,33 @@
+
+
+Show, how Insertion sort sorts the array E A S Y Q U E S T I O N.
+
+i=0 array :- e a s y q u e s t i o n
+
+i=1 array :- e a s y q u e s t i o n
+
+i=2 array :- a e s y q u e s t i o n
+
+i=3 array :-a e s y q u e s t i o n
+
+i=4 array :- a e s y q u e s t i o n
+
+i=5 array:-  a e q s y u e s t i o n
+
+i=6 array:- a e q s u y e s t i o n
+
+i=7 array:- a e e q s u y s t i o n
+
+i=8 array:- a e e q s s u y t i o n
+
+i=9 array:- a e e q s s t u y i o n
+
+i=10 array:-a e e i q s s t u y o n
+
+i=11 array: a e e i o q s s t u y n
+
+i=12 array: a e e i n o q s s t u y
+
+
+
+

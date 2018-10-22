@@ -1,0 +1,41 @@
+
+Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+
+Iteration 0:-Array [ E A S Y Q U E S T I O N], Index=E, SWAP
+
+Iteration 1:-Array [ A E S Y Q U E S T I O N], Index=E,
+
+Iteration 2:-Array [ A E S Y Q U E S T I O N],Index=S,swap
+
+Iteration 3:-Array [ A E E Y Q U S S T I O N],Index=Y,swap
+
+Iteration 4:-Array [ A E E I Q U S S T Y O N],Index=Q,swap
+
+Iteration 5:-Array [ A E E I N U S S T Y O Q],Index=U,swap
+
+Iteration 6:-Array [ A E E I N O S S T Y U Q],Index=S,swap
+
+Iteration 7:-Array [ A E E I N O Q S T Y U S],Index=S,swap
+
+Iteration 8:-Array [ A E E I N O Q S T Y U S],Index=T,swap
+
+Iteration 9:-Array [ A E E I N O Q S S Y U T],Index=Y,swap
+
+Iteration 10:-Array [ A E E I N O Q S S T U Y],Index=U,swap
+
+Iteration 11:-Array [ A E E I N O Q S S T U Y],Index=Y,swap
+
+Iteration 12:-Array [ A E E I N O Q S S T U Y]---FINAL SORTED ARRAY
+
+
+
+
+
+
+
+
+
+
+
+
+
