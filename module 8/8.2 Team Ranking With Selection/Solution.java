@@ -1,4 +1,4 @@
-package insertionsort;
+
 
 import java.util.Scanner;
 class Teams
