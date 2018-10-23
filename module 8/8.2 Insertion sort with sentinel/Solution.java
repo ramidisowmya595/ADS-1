@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package insertionsort;
 
+import java.util.Scanner;
 class Teams
 {
 	String name;
@@ -68,48 +69,41 @@ class Teams
 		}
 	}
 }
-
-class Solution 
+public class Solution 
 {
+	static Teams[] insertionsort(Teams[] list,int n) 
+	{
+        for(int  i=0;i<n;i++) 
+        {
+            for(int j=i;j>0;j--) 
+            {
+                if (list[j].Compare(list[j-1])>-1) 
+                {
+                    Teams temp = list[j-1];
+                    list[j-1]=list[j];
+                    list[j] = temp;
+                }
+            }
+
+        }
+        return list;
+    }
 	public static void main(String args[])
 	{
-		
 		Scanner sc=new Scanner(System.in);
-		Teams list[]=new Teams[2*(2+2+1)];
-		int k=0;
-		while(sc.hasNextLine())
-		{
-			String tokens[]=sc.nextLine().split(",");
-			list[k++]=new Teams(tokens[0],Integer.parseInt(tokens[1]),Integer.parseInt(tokens[2]),Integer.parseInt(tokens[2+1]));
-			list=insertionsort(list,k);
-			for(int i=0;i<k-1;i++)
-			{
-				System.out.println(list[i].getName() +",");
-			}
-			System.out.println(list[k-1].getName());
-			
-		}
-		
-		
-	}
-
-	private static Teams[] insertionsort(Teams[] list, int n) 
-	{
-		// TODO Auto-generated method stub)
-		for(int i=0;i<n;i++)
-		{
-			
-			for(int j=i;j>0;j--)
-			{
-				if(list[j].Compare(list[j-1])>-1)
-				{
-					Teams temp=list[j - 1];
-                    list[j-1]=list[j];
-                    list[j]=temp;
-				}
-			}
-			
-		}
-		return list;
+		Teams[] list = new Teams[2 * (2 + 2 + 1)];
+        int k=0;
+        while(sc.hasNextLine()) 
+        {
+            String[] tokens = sc.nextLine().split(",");
+            list[k++] = new Teams(tokens[0], Integer.parseInt(tokens[1]),
+                Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1]));
+        }
+        list=insertionsort(list,k);
+        for(int i= 0;i<k-1;i++)
+        {
+            System.out.print(list[i].getName() + ",");
+        }
+        System.out.print(list[k-1].getName());
 	}
 }
