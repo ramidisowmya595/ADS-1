@@ -1,0 +1,29 @@
+
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
+STEP 1)
+E A S Y Q U E S T I O N 
+LOW=1 HIGH=12 MID= 6
+STEP 2)
+E A S Y Q U             E S T I O N
+LOW=1 HIGH=6 MID=3      
+STEP 3)
+E A S       Y Q U       E S T     I O N
+LOW=1 HIGH=3 MID=2
+STEP 4)
+E A      S      Y Q    U     E S    T    I O     N
+LOW=1 HIGH=2 MID=1
+E A  S Y Q U E S T I O N
+STEP 5)
+MERGE AND SWAP 
+A E    S     Q Y     U     E S     T    I O    N
+STEP 6)
+
+A E S     Q U Y    E S T     I N O
+STEP 7)
+A E Q S U Y        E I N O S T
+STEP 8)
+SORTED ARRAY IS
+A E E I N O Q S S T U Y
+
+
+

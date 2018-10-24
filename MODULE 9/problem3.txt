@@ -1,0 +1,53 @@
+Give the sequence of subarray sizes in the merges performed by both the top-down and the bottom-up merge sort algorithms, for N = 39.
+
+
+
+Step 1:Array is from 0 -38
+low=0 high=38 mid=19
+
+now 0-19   20-38
+ size 20     19
+size of subarray 20 and 19
+
+
+Step 2:
+
+0-9   10-19    20-29    30-38
+10     10       10        9
+size of subarray 10 10 10 9
+
+
+Step 3:
+
+0-4   5-9    10-14    15-19   20-24   25-29   30-34  35-38
+5      5       5       5       5       5       5      4
+
+size of subarray 5 5 5 5 5 5 5 4
+
+
+
+Step 4:
+
+0-2  3-4 5-7 8-9  10-12  13-14  15-17  18-19  20-22 23-24 25-27  28-29 30-32 33-34 35-36 37-38
+3    2   3    2    3       2      3      2     3     2     3        2   3     2      2    2
+size of subarray 3 2 3 2 3 2 3 2 3 2 3 2 3 2 2 2
+
+
+step 5:
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38
+1 1 1 1 1 1 1 1 1 1 1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1   1
+
+All the elements in ana array are 1
+
+
+
+
+
+
+
+
+
+
+
+
+
