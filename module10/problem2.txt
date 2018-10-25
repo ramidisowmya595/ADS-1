@@ -1,0 +1,32 @@
+String print(String str)
+ {
+
+	if(str.length() == 0)
+	{
+		return;
+
+	} 
+	else if(str.length()==1) 
+	{
+		return str.charAt(0);
+
+	} 
+	else if(str.charAt(0) != str.charAt(1))
+	{
+		return str.charAt(0) +print( str.substring(1));
+	}
+	
+	return str.charAt(0) + '*' + print(str.substring(1));
+}
+
+
+str==hello
+str[0] == h, str[1] == e --->  str[0] != str[1] ---> h + print(ello) 					---> hel*lo
+
+str[0] == e, str[1] == l --->  str[0] != str[1] ---> e + print(llo) 			---> el*lo
+
+str[0] == l, str[1] == l --->  str[0] == str[1] ---> l* + print(lo) 	---> l*lo
+
+str[0] == l, str[1] == o --->  str[0] != str[1] ---> l + print(o) ---> lo
+
+str.length == 1 ---> o
