@@ -1,0 +1,10 @@
+[master 16a6f37] "ads1_m11_a1: 4/5 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 4 files changed, 5 insertions(+), 19 deletions(-)
+ create mode 100644 11.1 Cutoff Quicksort to Insertion Sort/md5/score.txt
+ create mode 100644 11.1 Cutoff Quicksort to Insertion Sort/result/score.json
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: warning: See http://git.io/iEPt8g for more information.        
+remote: warning: File 11.1 Cutoff Quicksort to Insertion Sort/testcases_output.txt is 91.31 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/ramidisowmya595/Ads-1.git
+   205ccf5..16a6f37  master -> master
