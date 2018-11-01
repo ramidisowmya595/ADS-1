@@ -1,0 +1,8 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+remote: Anonymous access to ramidisowmya595/Ads-1.git denied.
+fatal: Authentication failed for 'https://github.com/ramidisowmya595/Ads-1.git/'
