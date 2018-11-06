@@ -2,11 +2,7 @@
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-//import Bst.Node;
 
-//import Bst.Node;
-
-//import Bst.Node;
 
 class Book
 {
@@ -47,6 +43,9 @@ class Book
     		 return 0;
     	 }
     }
+     public String toString() {
+    	    return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
+    	    }
 }
 class BinarySearchTree 
 {
@@ -149,26 +148,44 @@ class BinarySearchTree
         }
        
         Node x = floor(root, key);
+        //System.out.println(x);
+
         if (x == null)
         {
         	return null;
         }
-        else return x.key;
+        else
+        {
+        	return x.key;
+        }
     } 
 
     private Node floor(Node x, Book key) {
         if (x == null)
+        {
         	return null;
+
+        }
         int cmp = key.compareTo(x.key);
-        if (cmp == 0) return x;
+        if (cmp == 0) 
+        {
+        	return x;
+        }
         if (cmp <  0)
         {
        	 return floor(x.left, key);
         }
        // System.out.println("Hi");
         Node t = floor(x.right, key); 
-        if (t != null) return t;
-        else return x; 
+        if (t != null)
+        {
+        	return t;
+
+        }
+        else
+        {
+        	return x; 
+        }
     } 
     
     public Book ceiling(final Book key) {
@@ -353,8 +370,9 @@ class Solution
 				Book b1=bt.max();
 				System.out.println(b1.name+", "+b1.author+", "+b1.price);
 				break;
-			case "floor":Book b4=bt.floor(new Book(input[1],input[2],Double.parseDouble(input[3])));
-						System.out.println(b4.name+", "+b4.author+", "+b4.price);
+			case "floor":/*Book b4=bt.floor(new Book(input[1],input[2],Double.parseDouble(input[3])));*/
+						//System.out.println(b4.name+", "+b4.author+", "+b4.price);
+						System.out.println(bt.floor(new Book(input[1],input[2],Double.parseDouble(input[3]))));
 					break;
 			case "deleteMin":bt.deleteMin();
 								break;
@@ -365,9 +383,9 @@ class Solution
 							break;
 			case "delete":bt.delete(new Book(input[1],input[2],Double.parseDouble(input[3])));
 							break;
-			case "ceiling":Book b5=bt.ceiling(new Book(input[1],input[2],Double.parseDouble(input[3])));
-			System.out.println(b5.name+", "+b5.author+", "+b5.price);
-
+			case "ceiling"://Book b5=bt.ceiling(new Book(input[1],input[2],Double.parseDouble(input[3])));
+			//System.out.println(b5.name+", "+b5.author+", "+b5.price);
+						System.out.println(bt.ceiling(new Book(input[1],input[2],Double.parseDouble(input[3]))));
 							break;
 			}
 		}
