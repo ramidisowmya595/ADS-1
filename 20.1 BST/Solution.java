@@ -347,26 +347,26 @@ class Solution
 						break;
 			case "min":
 				Book b=bt.min();
-				System.out.println(b.name+","+b.author+","+b.price);
+				System.out.println(b.name+", "+b.author+", "+b.price);
 				break;
 			case "max":
 				Book b1=bt.max();
-				System.out.println(b1.name+","+b1.author+","+b1.price);
+				System.out.println(b1.name+", "+b1.author+", "+b1.price);
 				break;
 			case "floor":Book b4=bt.floor(new Book(input[1],input[2],Double.parseDouble(input[3])));
-						System.out.println(b4.name+","+b4.author+","+b4.price);
+						System.out.println(b4.name+", "+b4.author+", "+b4.price);
 					break;
 			case "deleteMin":bt.deleteMin();
 								break;
 			case "deleteMax":bt.deleteMax();
 								break;
 			case "select":Book b3=bt.select(Integer.parseInt(input[1]));
-							System.out.println(b3.name+","+b3.author+","+b3.price);
+							System.out.println(b3.name+", "+b3.author+", "+b3.price);
 							break;
 			case "delete":bt.delete(new Book(input[1],input[2],Double.parseDouble(input[3])));
 							break;
 			case "ceiling":Book b5=bt.ceiling(new Book(input[1],input[2],Double.parseDouble(input[3])));
-			System.out.println(b5.name+","+b5.author+","+b5.price);
+			System.out.println(b5.name+", "+b5.author+", "+b5.price);
 
 							break;
 			}
