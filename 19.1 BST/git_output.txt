@@ -1,0 +1,29 @@
+warning: LF will be replaced by CRLF in 19.1 BST/testcases/problem_id.txt.
+The file will have its original line endings in your working directory
+[master 23ceba7] "ads1_m19_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 24 files changed, 782 insertions(+)
+ create mode 100644 19.1 BST/16.1. BinarySearchTree.docx
+ create mode 100644 19.1 BST/BinarySearchTree$Node.class
+ create mode 100644 19.1 BST/BinarySearchTree.class
+ create mode 100644 19.1 BST/Book.class
+ create mode 100644 19.1 BST/Solution.class
+ create mode 100644 19.1 BST/Solution.java
+ create mode 100644 19.1 BST/check_style_errors.txt
+ create mode 100644 19.1 BST/git_output.txt
+ create mode 100644 19.1 BST/md5/Input000.txt
+ create mode 100644 19.1 BST/md5/Input001.txt
+ create mode 100644 19.1 BST/md5/Input002.txt
+ create mode 100644 19.1 BST/md5/output000.txt
+ create mode 100644 19.1 BST/md5/output001.txt
+ create mode 100644 19.1 BST/md5/output002.txt
+ create mode 100644 19.1 BST/md5/problem_id.txt
+ create mode 100644 19.1 BST/testcases/input000.txt
+ create mode 100644 19.1 BST/testcases/input001.txt
+ create mode 100644 19.1 BST/testcases/input002.txt
+ create mode 100644 19.1 BST/testcases/output000.txt
+ create mode 100644 19.1 BST/testcases/output001.txt
+ create mode 100644 19.1 BST/testcases/output002.txt
+ create mode 100644 19.1 BST/testcases/problem_id.txt
+ create mode 100644 19.1 BST/testcases_output.txt
+ create mode 100644 19.1 BST/~$.1. BinarySearchTree.docx
+fatal: unable to access 'https://github.com/ramidisowmya595/Ads-1.git/': Could not resolve host: github.com
