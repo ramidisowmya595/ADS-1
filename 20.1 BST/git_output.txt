@@ -1,0 +1,8 @@
+[master 9fa3d62] ": 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 9 files changed, 364 insertions(+), 353 deletions(-)
+ rewrite 20.1 BST/Book.class (75%)
+ create mode 100644 20.1 BST/md5/score.txt
+ create mode 100644 20.1 BST/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/ramidisowmya595/Ads-1.git
+   ac9a752..9fa3d62  master -> master
