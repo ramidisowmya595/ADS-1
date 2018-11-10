@@ -26,7 +26,7 @@ class Student
 	}
 	int compareTo(Student current)
 	{
-		if(this.total.compareTo(current.total)>0)
+		if(this.total.compareTo(current.total)>=0)
 		{
 			return 1;
 		}
