@@ -1,0 +1,7 @@
+[master f480d57] "m24_a2_1: 3/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 6 files changed, 41 insertions(+), 41 deletions(-)
+ create mode 100644 ADS_FinalExam/2/md5/score.txt
+ create mode 100644 ADS_FinalExam/2/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/ramidisowmya595/Ads-1.git
+   6c77654..f480d57  master -> master
